@@ -1,11 +1,14 @@
 # mqtt
-
+!!!!
+THIS REPO IS NOT THE OG - CHECK THE ORIGINAL
+THIS IS A FORK THAT WILL BE MADE COMPATIBLE WITH THE LATEST PAHO VERSION.
+!!!!
 [![GoDoc](https://godoc.org/github.com/creedscode/mqtt?status.svg)](http://godoc.org/github.com/creedscode/mqtt)
 [![CI](https://github.com/creedscode/mqtt/workflows/ci/badge.svg)](https://github.com/creedscode/mqtt/actions?workflow=ci)
 [![Code Coverage](https://img.shields.io/codecov/c/gh/lucacasonato/mqtt)](https://codecov.io/gh/lucacasonato/mqtt)
 [![Go Report](https://goreportcard.com/badge/github.com/creedscode/mqtt)](https://goreportcard.com/report/github.com/creedscode/mqtt)
 
-A fork of an mqtt client for Go that improves usability over the [paho.mqtt.golang](https://github.com/eclipse/paho.mqtt.golang) library it wraps. Made for 🧑. Check out the OG: https://github.com/creedscode/mqtt
+A fork of an mqtt client for Go that improves usability over the [paho.mqtt.golang](https://github.com/eclipse/paho.mqtt.golang) library it wraps. Made for 🧑. Check out the OG: https://github.com/lucacasonato/mqtt
 
 ## installation
 
