@@ -1,23 +1,23 @@
 # mqtt
 
-[![GoDoc](https://godoc.org/github.com/lucacasonato/mqtt?status.svg)](http://godoc.org/github.com/lucacasonato/mqtt)
-[![CI](https://github.com/lucacasonato/mqtt/workflows/ci/badge.svg)](https://github.com/lucacasonato/mqtt/actions?workflow=ci)
+[![GoDoc](https://godoc.org/github.com/creedscode/mqtt?status.svg)](http://godoc.org/github.com/creedscode/mqtt)
+[![CI](https://github.com/creedscode/mqtt/workflows/ci/badge.svg)](https://github.com/creedscode/mqtt/actions?workflow=ci)
 [![Code Coverage](https://img.shields.io/codecov/c/gh/lucacasonato/mqtt)](https://codecov.io/gh/lucacasonato/mqtt)
-[![Go Report](https://goreportcard.com/badge/github.com/lucacasonato/mqtt)](https://goreportcard.com/report/github.com/lucacasonato/mqtt)
+[![Go Report](https://goreportcard.com/badge/github.com/creedscode/mqtt)](https://goreportcard.com/report/github.com/creedscode/mqtt)
 
-A fork of an mqtt client for Go that improves usability over the [paho.mqtt.golang](https://github.com/eclipse/paho.mqtt.golang) library it wraps. Made for 🧑. Check out the OG: https://github.com/lucacasonato/mqtt
+A fork of an mqtt client for Go that improves usability over the [paho.mqtt.golang](https://github.com/eclipse/paho.mqtt.golang) library it wraps. Made for 🧑. Check out the OG: https://github.com/creedscode/mqtt
 
 ## installation
 
 ```bash
-go get github.com/lucacasonato/mqtt
+go get github.com/creedscode/mqtt
 ```
 
 ```go
-import "github.com/lucacasonato/mqtt"
+import "github.com/creedscode/mqtt"
 // or
 import (
-    "github.com/lucacasonato/mqtt"
+    "github.com/creedscode/mqtt"
 )
 ```
 

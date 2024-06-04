@@ -6,8 +6,8 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/creedscode/mqtt"
 	"github.com/google/uuid"
-	"github.com/lucacasonato/mqtt"
 )
 
 func ctx() context.Context {

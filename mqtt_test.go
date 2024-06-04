@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lucacasonato/mqtt"
+	"github.com/creedscode/mqtt"
 )
 
 // TestNewClientNilServer checks if creating a client with a nil server array works

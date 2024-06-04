@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lucacasonato/mqtt"
+	"github.com/creedscode/mqtt"
 )
 
 func ctx() context.Context {

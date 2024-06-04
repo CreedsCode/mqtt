@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/creedscode/mqtt"
 	"github.com/google/uuid"
-	"github.com/lucacasonato/mqtt"
 )
 
 var testUUID = uuid.New().String()
