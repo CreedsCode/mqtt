@@ -10,7 +10,7 @@ jobs:
       mqtt:
         image: eclipse-mosquitto:latest
         ports:
-          - '1883:1883'
+          - "1883:1883"
     env:
       MQTT_BROKER: tcp://localhost:1883
     steps:
@@ -31,7 +31,7 @@ jobs:
       mqtt:
         image: eclipse-mosquitto:latest
         ports:
-          - '1883:1883'
+          - "1883:1883"
     env:
       MQTT_BROKER: tcp://localhost:1883
     steps:
@@ -43,10 +43,3 @@ jobs:
         uses: actions/checkout@v1
       - name: Get dependencies
         run: go mod download
-      - name: Run coverage
-        run: go test -coverprofile=coverage.txt -covermode=atomic
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1.0.3
-        with:
-          token: ${{secrets.CODECOV_TOKEN}}
-          file: ./coverage.txt
