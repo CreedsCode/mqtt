@@ -1,4 +1,4 @@
-module github.com/lucacasonato/mqtt
+module github.com/creedscode/mqtt
 
 go 1.13
 
